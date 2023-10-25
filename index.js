@@ -31,11 +31,12 @@ if(dataJson != null){
  * B1. Tạo 1 array rỗng
  * B2. Dom tới các thẻ input
  * B3. Tạo object tương ứng
- * B4. Chuyển array thành JSON
- * B5. Lưu xuống LOCALSTORAGE
- * B6. Lấy array đi xử lý
+ * B4. Thêm sv vào dSSV
+ * B5. Chuyển array thành JSON
+ * B6. Lưu xuống LOCALSTORAGE
+ * B7. Lấy array đi xử lý
  */
-function themSV(){ //7 BƯỚC
+function themSV(){ //8 BƯỚC (ĐÃ CÓ VALIDATE)
  //B2. Dom tới các thẻ input
  var _ma = domID('txtMaSV').value;
  var _ten = domID('txtTenSV').value;
